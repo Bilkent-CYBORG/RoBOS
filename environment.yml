@@ -1,0 +1,19 @@
+name: rbs
+channels:
+- conda-forge
+- nvidia
+- gurobi
+dependencies:
+- python=3.10
+- cvxpy
+- scikit-learn
+- scipy
+- oyaml
+- gpy
+- jupyter
+- matplotlib
+- numpy<1.25
+- pandas
+- seaborn
+- gurobi
+- gym
